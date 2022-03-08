@@ -1,0 +1,31 @@
+**************************************************INSTRUCTIONS********************************************************
+1 Use HousePrice.csv for question 2. (Source: https://www.kaggle.com/shree1992/housedata , data.csv)
+2 Use Numpy library for Q1.
+3 Use Pandas library in Q2.
+4 Provide justification, observations and any other reportings wherever required.
+
+**********************************************************************************************************************
+
+1. NUMPY: Create a numpy array 'data' of shape (100*3). Perform the operations given below: (2 marks)
+	i. Fill first column randomly with integers in range [1,100], second column with real numbers in range [-1,1] and third column with alphabets in [a,z].
+	ii. Convert column three to numeric form by using any convenient mapping to integers.
+	iii. Normalize the array obtained in (ii.) using min max normalization. Use normalized array for all later operations.
+	iv. Calculate the column sum, mean, min and max for all columns.
+	v. Also calculate the row average for all rows and add it as a new column in your array. The resultant array will be of shape: (100,4).
+	vi. Resize the normalized array in (iii.) to the shape(3,100). Multiply (Matrix multiplication) this array of shape (3,100) with normalized array of shape(100,3) and find the determinant of the resultant array. 
+	vii. Flatten the array in (iii.) and calculate the mean of this flattened array. Create another array like data, filled with zeros. Add the mean obtained in this step to each element of newly created array. (Remember broadcasting!).
+
+
+2. PANDAS: Use HousePrice Dataset for the following task. (3 marks)
+	i. Load the dataset in a pandas dataframe. Display its shape and the first and last 10 rows in the dataframe.
+	ii. Eliminate the columns titled: 'date', all columns starting with 'sqft_*', 'statezip' and 'country'.
+	iii. Eliminate all columns if more than 50% of its values are set to 0. This is the cleaned dataframe. Display the shape of this cleaned dataframe.
+	iv. Count the number of unique cities. Display pandas dataframe description (df.describe()) specifically for the city 'Seattle'.
+	v. Using pandas describe the dataset grouped by the number of bedrooms.
+	vi. Remove all house descriptions for which yr_renovated = 0 or yr_renovates<2000. Display the shape of this dataframe.
+	vii. For the dataset obtained in vi. perform column wise normalization for all columns except 'city'.
+	viii. Describe dataframe obtained in (vii.). Also show box plots and histograms for the same. 
+	ix. Remove outliers based on the observations in (viii.).
+	x. Stored the final cleaned dataset as tab separated '.csv' file. Submit this file in the submission.
+	
+ 

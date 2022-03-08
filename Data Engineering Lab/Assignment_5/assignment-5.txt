@@ -1,0 +1,19 @@
+Instructions
+.............................
+i. Write comments and name variables appropriately, otherwise you will get penalty.
+ii. Submit one file .ipynb file containing all answers. The name should be <student_name>_assignment<number>.ipynb
+iii. Write the questions before the answers.
+iv. Write a justification of your solution.
+v. Give one example input and output
+vi. The code should be executable and show output
+vii. Use functions to modularize your code.
+
+
+
+Tasks
+.................................................................
+1. Implement BFS and DFS and use a graph of at least 10 nodes and at least 15 edges to demonstrate. [1]
+2. Implement a code that uses BFS or DFS to find connected components in a graph. Also, find the length of largest and second largest connected component. Use a graph that has at least 4 components to demonstrate your code. [2] 
+3. Implement Dijkstras algorithm and demonstrate in the above graph to find the diameter of the graph. Diameter of the graph is the longest path among the shortest paths between any two vertices. Draw the graph and highlight the diameter in the graph. [2]
+
+

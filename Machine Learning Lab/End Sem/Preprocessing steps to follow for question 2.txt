@@ -1,0 +1,5 @@
+Pre Processing Steps:-
+1) Convert to Lowercase
+2) Remove Stopwords
+3) Remove words of Length less than 2
+4) Remove punctutation from words

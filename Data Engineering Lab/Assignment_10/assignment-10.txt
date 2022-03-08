@@ -1,0 +1,17 @@
+**************************************************INSTRUCTIONS********************************************************
+1. Use the dataset "Programming_Language_Popularity.csv" for questions 1-2.
+2. Use the dataset "Company_Sales_Data.csv" for questions 4-5. 
+3. Provide justification, observations and any other reportings wherever required.
+4. Note: Plots should be properly labeled and annotated to make sense.
+**********************************************************************************************************************
+
+
+1. Write a Python program to display a pie chart for the top 10 most popular programming languages with the most popular wedge and the least popular wedge exploded. (1 mark)
+
+2. Write a Python program to display a bar chart of the popularity of programming Languages sorted in the order of highest to lowest popularity. Use different color for each bar. Attach a text label above each bar displaying its popularity (float value). (1 mark)
+
+3. Use dataset "Corona_Tweets.csv" for this question. Write a Python program to display word cloud for the Corona_Tweets dataset. Print the most popular (frequent) word. (1 mark)
+
+4. Write a Python program to display the number of units sold per month for each product using multiline plots (i.e., separate line plot of different color for each product on a single figure). Add circle markers. Make use of legend to indicate which line plot is for which product. (1 mark)
+
+5. Write a Python program to display scatterplot for the number of units sold per month for the products facecream, facewash and shampoo on a single figure. Use different markers and colors for each product. Make use of legend to indicate which marker is for which product. (1 mark)
