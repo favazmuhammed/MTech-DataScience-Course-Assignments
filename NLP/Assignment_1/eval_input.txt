@@ -1,0 +1,15 @@
+The purpose of this document is to evaluate the first programming assignment: extract all the dates mentioned in a test file and standardize them to a fixed format. One can mention a date using multiple formats. When I created this document, Google Docs assigned Feb 11, 2022, as the “last opened date” to this document. One can write February 11, 2022, as 11/02/2022, but it is ambiguous. Based on the standard date format used in the US, one can misinterpret this date as 2nd November of 2022 or November 2, 2022. As per the suggestion by a student in this class, we will follow the day-month-year format.
+
+It is expected that your program should not identify 11/13/2022 as a valid date as there are only 12 months in a year. At the same time, 29-02-2022 is also an invalid date because 2022 is not a leap year. Is 31-Apr-2022 a valid date? 
+
+Dates play an important role in official and legal matters, hence many universities aim to avoid confusion related to dates. Let us say the convocation date of a university is 5-7-2022, then the following convocation date will be mentioned on a student’s degree certificate:
+	The fifth day of the month of July in the year two thousand twenty two.
+
+There are some important days in a year, for example, Independence day (15th August), Friendship day (1st Sunday of August), and Boxing day (December 26). For such days, the year is not mentioned explicitly. 
+
+When the exact date of a particular event is not known or it is not important to mention, people use incomplete dates. For example,
+1. John worked with XYZ Ltd. from March 2018 to December 2020. 
+2. What are your favorite songs of the 1990s?
+3. The cold war started in 1947 and ended in 1991, after the dissolution of the USSR. 
+
+Well, at the end can you think about the knowledge sources that will be needed to standardize Valentine’s day, International worker’s day, or Boxing day.
